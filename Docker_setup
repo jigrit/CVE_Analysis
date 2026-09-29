@@ -1,0 +1,7 @@
+# Docker build & run (sudo 1.9.17)
+docker build --no-cache --provenance=false -t vuln-cve-2025-32463-lab:vuln .
+docker run -it --rm --name sudo-lab vuln-cve-2025-32463-lab:vuln
+
+# Docker build & run (sudo 1.9.17p1)
+docker build --no-cache --provenance=false -t safe-cve-2025-32463-lab:safe .
+docker run -it --rm --name sudo-lab safe-cve-2025-32463-lab:safe
