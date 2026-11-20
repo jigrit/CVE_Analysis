@@ -10,4 +10,4 @@
 
 | CVE | Product | Topic |
 | --- | --- | --- |
-| [CVE-2024-6387](2024/CVE-2024-6387/) | OpenSSH | regreSSHion |
+| [CVE-2024-6387](2024/CVE-2024-6387/) | OpenSSH | Remote code execution (RCE) |
